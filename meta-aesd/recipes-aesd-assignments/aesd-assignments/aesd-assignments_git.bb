@@ -4,8 +4,7 @@ inherit update-rc.d
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git://git@github.com/cu-ecen-aeld/
-assignments-3-and-later-jaeseolee0307.git;protocol=ssh;branch=maste"
+SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-jaeseolee0307.git;protocol=ssh;branch=master"
 PV = "1.0+git${SRCPV}"
 SRCREV = "4a3c34ac4199a57d7b95d54e7b26a0cf99f18811"
 S = "${WORKDIR}/git/server"
